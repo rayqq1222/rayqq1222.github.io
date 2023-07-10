@@ -1,3 +1,7 @@
+
+body {
+	background-color: #e4000f;
+  }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Noto Sans TC', sans-serif;
 }
@@ -10,11 +14,15 @@ a,span,li,label{
 img{
 	max-width:100%;
 }
+.nav-link{
+	color: #f9f9f9;
+}
+
 nav li{
 	    margin: 0 13px;
 }
 #intro .jumbotron{
-	background: url('../pictures/banner.jpg');
+	background: url('../pictures/mario_banner.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -31,25 +39,32 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #f0e45c;
+    background-color: #bf110e;
+	color: #f9f9f9;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
 .btn:hover{
 	opacity:0.8;
-	background-color: #3bcb74!important;
+	background-color: #010101!important;
 }
 #second{
 	padding: 80px 0px;
+	background: url('../pictures/Mario_wallpaper2.jpg');
 }
+
 #second h3, #latest h3{
 	margin-bottom: 70px;
 	font-size: 32px;
 }
 #second img{
 	border-radius: 100%;
-    width: 108px;
+    width: 500px;
+}
+#latest img{
+	
+    height: 300px;
 }
 #second h5{
 	margin-top: 22px;
@@ -59,16 +74,18 @@ nav li{
 p{
 	font-size: 16px;
     line-height: 26px;
-    color: #707070;
+    color: #faf8f8;
 }
 p.lead{
-	color: black;
+	color: rgb(255, 255, 255);
+	font-size: 45px;
 	line-height: 31px;
 }
-#latest {
+#latest{
 	background: rgb(248, 248, 248);
 	padding: 80px 0px;
 }
+
 #latest .upper{
 	position:relative;
 }
@@ -110,6 +127,7 @@ p.lead{
 	margin-right:5px;
 }
 #email{
+	background: url(../pictures/mario-wallpapers.jpg);
 	padding: 80px 0px
 }
 footer{
@@ -271,6 +289,7 @@ footer ul{
 	display:inline-block;
 	margin-right: 4px;
 }
+
 @media only screen and (max-width: 768px) {
 	#second h5 {
 	    margin-bottom: 50px;
